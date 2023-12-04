@@ -2,11 +2,8 @@
 
 ### Dataset:
 MovieLens: https://grouplens.org/datasets/movielens/latest/
-![image](https://github.com/code-mj/Recommendation-Engine/assets/25456564/f15b068e-2f48-45ae-adb9-f50afd12606f)
 
 FER2013 dataset: https://www.kaggle.com/datasets/msambare/fer2013
-![Uploading image.png…]()
-
 
 ### Module1: Movie Recommendation Engine using ALS
 
