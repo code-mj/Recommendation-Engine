@@ -44,10 +44,10 @@ The motivation behind this project is to create a real-time movie recommendation
    - Loaded the movies and ratings datasets.
   
 2. **Emotion Recognition Model Setup:**
-   - Loaded a pre-trained emotion recognition model from the saved JSON and weights files which is generated from Mansi Face_Emotion_Recognition.ipynb file.
+   - Loaded a pre-trained emotion recognition model from the saved JSON and weights files which is generated from 2. Face_Emotion_Recognition.ipynb file.
      
 3. **Simulated Emotion Detection:**
-   - Created a simulation for real-time emotion recognition from a camera feed by randomly selecting an emotion from a predefined list. This step simulates the detection of user emotion.
+   - Created a simulation for real-time emotion recognition function from a camera feed. This step involves using OpenCV to detect faces in an image (recognize_emotion function) using a Haar Cascade classifier.
 
 4. **Recommendation Function:**
    - Defined a function to recommend top-rated movies based on the recognized emotion.
@@ -60,7 +60,7 @@ The motivation behind this project is to create a real-time movie recommendation
 
 **Conclusion:**
 
- - The emotional recognition model is trained with accuracy 0.76 using CNN and as per our case, the recognized emotion is "sad" and for that emotion, the top rated movies are:
+ - The emotional recognition model is trained with accuracy 0.76 using CNN and as per our case, the recognized emotion is "happy" and for that emotion, the top rated movies are:
     - George Carlin: You Are All Diseased
     - Dr. Goldfoot and the Bikini Machine
     - I'm the One That I Want
